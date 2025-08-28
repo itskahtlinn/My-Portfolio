@@ -28,21 +28,24 @@ const Navbar = () => {
         </li>
           
         <li>
-          <a href="#projects" className="group flex items-center gap-5 px-4 py-2 rounded-xl hover:bg-[#0B192C] transition text-[#0B192C] hover:text-white">
-            <img src="/assets/About.svg" alt="Projects" className="w-4 h-4 group-hover:brightness-0 group-hover:invert" />
+          <a href="#about" 
+            className="group flex items-center gap-5 px-4 py-2 rounded-xl hover:bg-[#0B192C] transition text-[#0B192C] hover:text-white">
+            <img src="/assets/About.svg" alt="About" className="w-4 h-4 group-hover:brightness-0 group-hover:invert" />
               <span className="group-hover:text-white">About</span>
           </a>
         </li>
 
         <li>
-          <a href="#projects" className="group flex items-center gap-5 px-4 py-2 rounded-xl hover:bg-[#0B192C] transition text-[#0B192C] hover:text-white">
+          <a href="#projects" 
+            className="group flex items-center gap-5 px-4 py-2 rounded-xl hover:bg-[#0B192C] transition text-[#0B192C] hover:text-white">
             <img src="/assets/Project.svg" alt="Home" className="w-4 h-4 group-hover:brightness-0 group-hover:invert"/> 
               <span> Project </span> 
           </a>
         </li>
 
         <li>
-          <a href="#contact" className="group flex items-center gap-5 px-4 py-2 rounded-xl hover:bg-[#0B192C] hover:text-white transition">
+          <a href="#contact" 
+            className="group flex items-center gap-5 px-4 py-2 rounded-xl hover:bg-[#0B192C] hover:text-white transition">
             <img src="/assets/Contact.svg" alt="Home" className="w-4 h-4 roup-hover:brightness-0 group-hover:invert"/> 
               <span> Contact </span> 
           </a>

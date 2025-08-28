@@ -24,12 +24,6 @@ body {
   color: #0B192C;
 }
 
-
-
-
-
-
-
 /* Floating & twinkle animations */
 @keyframes float {
   0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
@@ -50,6 +44,10 @@ body {
 }
 
 @keyframes blink { 50% { opacity: 0; } }
+
+html {
+  scroll-behavior: smooth;
+}
 
 
 

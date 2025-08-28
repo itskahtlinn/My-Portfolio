@@ -79,11 +79,10 @@ const HomeSection = () => {
           alt="Kath Panuga"
           className="
             relative z-10
-            w-full h-auto object-contain
+            w-full h-145 object-contain
             drop-shadow-2xl
             [filter:drop-shadow(0_24px_48px_rgba(11,25,44,0.25))]
-            md:-translate-x-35 translate-y-20
-          "
+            md:-translate-x-35 translate-y-0"
           loading="eager" decoding="async" 
         />
 
